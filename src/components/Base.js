@@ -43,7 +43,6 @@ const Base = ({ addBase, pizza }) => {
               mix-blend-mode="normal"
               solid-color="rgb(0,0,0)"
               solid-opacity="1"
-              vector-effect="none"
             />
           </g>
         </svg>
