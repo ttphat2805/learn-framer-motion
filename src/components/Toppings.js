@@ -14,7 +14,6 @@ const Toppings = ({ addTopping, pizza }) => {
     "extra cheese",
     "tomatoes",
   ];
-
   return (
     <motion.div
       className="toppings container"
