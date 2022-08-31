@@ -18,6 +18,7 @@ const Toppings = ({ addTopping, pizza }) => {
   return (
     <motion.div
       className="toppings container"
+      style={{ zIndex: 1 }}
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -52,7 +53,6 @@ const Toppings = ({ addTopping, pizza }) => {
               mix-blend-mode="normal"
               solid-color="rgb(0,0,0)"
               solid-opacity="1"
-              vector-effect="none"
             />
           </g>
         </svg>

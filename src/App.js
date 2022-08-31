@@ -37,11 +37,12 @@ function App() {
     setPizza({ ...pizza, toppings: newToppings });
   };
 
+  console.log(pizza);
   return (
     <>
       <Header />
       <svg
-        viewBox="-52 -92 261 291"
+        viewBox="-52 -92 150 291"
         xmlns="http://www.w3.org/2000/svg"
         className="svg-animation"
       >

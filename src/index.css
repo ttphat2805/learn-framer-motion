@@ -57,7 +57,7 @@ button:hover {
 }
 .container {
   max-width: 300px;
-  margin: 100px auto 40px;
+  margin: 10px auto 40px;
 }
 .container h3 {
   padding-bottom: 10px;
@@ -150,7 +150,7 @@ li span.active::before {
 .svg-animation {
   filter: blur(50px);
   z-index: 0;
-  width: 50%;
+  width: 40%;
   opacity: 0.5;
   position: absolute;
 }
